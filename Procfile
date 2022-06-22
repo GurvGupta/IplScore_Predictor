@@ -1,1 +1,1 @@
-web: gunicorn iplscore-predicto.esgi --log-file -
+web: gunicorn app:app
